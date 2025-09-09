@@ -1,0 +1,68 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 400px;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"], input[type="date"], textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    textarea {
+        resize: vertical;
+        height: 80px;
+    }
+
+    .shift {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .shift label {
+        font-weight: normal;
+    }
+
+    button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .logo {
+    display: block;          /* pour que margin auto fonctionne */
+    margin: 0 auto;          /* centre l'image horizontalement */
+    width: 200px;            /* ajuste la largeur selon ton besoin */
+    height: auto;            /* conserve les proportions */
+}
+
+h2{
+    text-align: center;
+}
+
