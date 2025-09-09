@@ -1,2 +1,2 @@
 # becom-pointage
-Formulaire pointage HTML-CSS
+Formulaire HTML-CSS
